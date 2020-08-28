@@ -1,7 +1,7 @@
 from FTKBluetooth import bluetooth_classic_scan, bluetooth_low_energy_scan
 
 if __name__ == "__main__":
-    scan_duration = 5
+    scan_duration = 1
 
     scanned_devices = bluetooth_classic_scan(scan_duration)
     if scanned_devices:

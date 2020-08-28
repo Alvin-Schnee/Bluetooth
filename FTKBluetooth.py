@@ -1,7 +1,7 @@
 import bluetooth
 
 try:
-    from bluetooth.ble import DiscoveryService
+    from gattlib import DiscoveryService
 except ImportError:
     print("SYSTEM > Can't Import DiscoveryService. Bluetooth Low-Energy interactions will be deactivated.")
     DiscoveryService = None
